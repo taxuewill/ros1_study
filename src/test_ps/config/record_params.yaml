@@ -1,0 +1,27 @@
+workspace: "/home/will/test/rosbag"
+mini_left: 10
+duration: 1
+filter_topics:
+    - "/realtime_cost_map"
+    - "/segmatch/localization_avg"
+    - "/showShape"
+    - "/showFeedTraj"
+    - "/showDwaPath"
+    - "/showCurGoal"
+    - "/showLaneRefTraj"
+    - "/cmd_vel"
+    - "/cmd_enable"
+    - "/cmd_model"
+    - "/angle"
+    - "/speed"
+    - "/info"
+    - "/bticks"
+    - "/fticks"
+    - "/status"
+    - "/velodyne_points"
+    - "/mesCurGPS"
+    - "/tf"
+    - "/showLatticePath"
+    - "/detection/object_tracker/objects"
+    - "/lidar/track"
+

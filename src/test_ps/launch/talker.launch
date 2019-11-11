@@ -1,0 +1,6 @@
+<launch>
+	<group ns="test_ps">
+		<rosparam  file="$(find test_ps)/config/record_params.yaml" />
+		<node pkg="test_ps" name="talker" type="talker" />
+	</group>
+</launch>
