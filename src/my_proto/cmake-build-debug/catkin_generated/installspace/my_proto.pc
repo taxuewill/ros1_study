@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: my_proto
-Description: Description of my_proto
-Version: 0.0.0
-Cflags: 
-Libs: -L/usr/local/lib 
-Requires: 
