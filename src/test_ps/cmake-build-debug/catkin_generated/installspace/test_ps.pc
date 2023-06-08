@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: test_ps
-Description: Description of test_ps
-Version: 0.0.0
-Cflags: 
-Libs: -L/usr/local/lib 
-Requires: 
