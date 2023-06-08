@@ -5,4 +5,5 @@ package pb;
 message Person{
   string name = 1;
   int32 age =2;
+  repeated int32 score = 3;
 }

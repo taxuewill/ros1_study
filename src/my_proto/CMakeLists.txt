@@ -198,7 +198,17 @@ include_directories(
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 
-include_directories(${PROTOBUF_INCLUDE_DIR})
+include_directories(
+        ${Protobuf_INCLUDE_DIR}
+        ${CMAKE_CURRENT_BINARY_DIR})
 PROTOBUF_GENERATE_CPP(PROTO_SRC PROTO_HEADER src/person.proto)
 
 add_library(my_proto ${PROTO_HEADER} ${PROTO_SRC})
+
+
+
+add_executable(main
+        src/main.cpp
+        ${PROTO_SRC})
+
+target_link_libraries(main ${Protobuf_LIBRARIES})

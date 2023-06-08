@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/will/data/github/ros1_study/src/test_ps/cmake-build-debug/devel/setup.sh
